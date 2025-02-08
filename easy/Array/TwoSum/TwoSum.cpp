@@ -10,7 +10,7 @@ public:
         std::vector<int> result;
 
         for (int i = 0; i < (int)nums.size(); i++)
-		{
+	{
             int complement = target - nums[i];
 	
             if (hashMap.find(complement) != hashMap.end()) {
